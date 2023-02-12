@@ -44,7 +44,7 @@ const handleClickit=()=>{
   });
   setText( capitalizedWords.join(" "));
 
-  props.showAlert("First letter Capitalized","success");
+  props.showAlert("First letter Capitalized!","success");
 
   // console.log(words);
 }
