@@ -5,7 +5,7 @@ export default function Navbar(props) {
     //console.log("UpperCase was Clicked");
     let newText=text.toUpperCase();
     setText(newText);
-    props.showAlert("Converted to ygbb UpperCase!","success");
+    props.showAlert("Converted to UpperCase!","success");
   }
   const handleLoClick=()=>{
     //console.log("UpperCase was Clicked");
